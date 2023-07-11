@@ -58,11 +58,11 @@ In the example, when tortoise is at 3, the hare is at 5 and the distance between
 
 For the purpose of proving the hare _always_ meets the tortoise in a loop, we can focus explicitly on the cycle and generalize.
 
-Let's suppose we reached the point where the tortoise is in the first node of the cycle. Let the length of the cycle be `C` and the distance forwards from the hare to the tortoise be `D`. On every iteration, the distance is first increased by 1 (the tortoise moves) and then decreased by 2 (the hare moves), resulting in the distance decreasing by 1 every time both move.
+Let's suppose we reached the point where the tortoise is in the first node of the cycle. Let the distance forwards from the hare to the tortoise be $d$. On every iteration, the distance is first increased by 1 (the tortoise moves) and then decreased by 2 (the hare moves), resulting in the distance decreasing by 1 every time both move.
 
-As the distance decreases by 1 specifically, eventually `D` will become 0. For the hare to surpass the tortoise and loop again, `D` would have to not go through 0, meaning the distance would need to decrease by more than 1 node at a time.
+As the distance decreases by 1 specifically, eventually $d$ will become 0. For the hare to surpass the tortoise and loop again, $d$ would have to not go through 0, meaning the distance would need to decrease by more than 1 node at a time.
 
-The worst case would then be if the tortoise is as far as possible from the hare, where it would take the hare `N` moves to meet the tortoise, where `N` is the length of the cycle. This is what makes this a linear time algorithm.
+The worst case would then be if the tortoise is as far as possible from the hare, where it would take the hare $n$ moves to meet the tortoise, where $n$ is the length of the cycle. This is what makes this a linear time algorithm.
 
 ## But wait, there's more
 
@@ -105,33 +105,33 @@ This will need a more methodic math view on it. [Here](https://www.youtube.com/w
 
 Let's divide the lists into three distances.
 
-- From the first node to the start of the loop, call it `A`
-- From the start of the loop to the meeting point, call it `B`
-- From the meeting point to the start of the loop, call it `C`
+- From the first node to the start of the loop, call it $a$
+- From the start of the loop to the meeting point, call it $b$
+- From the meeting point to the start of the loop, call it $c$
 
-Note that the length of the cycle is, then, `B + C`. Call this length `L`.
+Note that the length of the cycle is, then, $b + c$. Call this length $l$.
 
-To prove this approach works we need an equation stating a relationship between `A` and `C` that says that both parts moving one step at a time, one `A` times from the start, and one `A` times in the loop, will make them eventually meet at the beginning.
+To prove this approach works we need an equation stating a relationship between $a$ and $c$ that says that both parts moving one step at a time, one $a$ times from the start, and one $a$ times in the loop, will make them eventually meet at the beginning.
 
 So let's move towards that, beginning by analyzing the distances both travelled.
 
-The distance travelled by the hare is given by `A + C1 * L + B` (call it `H`), where `C1` is the number of times it looped, and the distance the tortoise travelled is given by `A + C2 * L + B` (call it `T`), where `C2` is the number of times it looped.
+The distance travelled by the hare is given by $a + c_1 * l + b$ (call it $h$), where $c_1$ is the number of times it looped, and the distance the tortoise travelled is given by $a + c_2 * l + b$ (call it $t$), where $c_2$ is the number of times it looped.
 
-As the hare goes twice as fast as the tortoise, `H = 2 * T`.
-Solve this expression for `A` and we get
+As the hare goes twice as fast as the tortoise, $h = 2t$.
+Solve this expression for $a$ and we get
 
-`A = (C1 - 2 * C2) * L - B`
+$a = (c_1 - 2c_2)l - b$
 
-As `L = B + C` and we want a relationship between `A` and `C`, let's remove B by adding L and subtracting L
+As $l = b + c$ and we want a relationship between $a$ and $c$, let's remove B by adding L and subtracting L
 
-`A = (C1 - 2 * C2) * L - L + L - B`
+$a = (c_1 - 2c_2)l - l + l - b$
 
-`A = (C1 - 2 * C2 - 1) * L + L - B`
+$a = (c_1 - 2c_2 - 1)l + l - b$
 
-`A = (C1 - 2 * C2 - 1) * L + C`
+$a = (c_1 - 2c_2 - 1)l + c$
 
-As `C1` and `C2` are both integers, the expression in parenthesis is also an integer, call it `C3`. The equation now is
+As $c_1$ and $c_2$ are both integers, the expression in parenthesis is also an integer, call it $c_3$. The equation now is
 
-`A = C3 * L + C`
+$a = c_3l + c$
 
 This equations says that _the distance from the first node to the start of the loop is the same as the distance from the meeting point to the start of the cycle plus a constant amount of loops_. Therefore, when the elements meet again it will be at the start of the cycle!
