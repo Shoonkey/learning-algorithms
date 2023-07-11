@@ -10,4 +10,4 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - Binary trees
 
 ## Algorithms
-To be added.
+- Binary exponentiation
