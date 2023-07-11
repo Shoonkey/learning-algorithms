@@ -10,6 +10,10 @@ There are many types of linked lists. They can be:
 - **Singly-linked**, where the nodes have a pointer to the next
 - **Doubly-linked**, where the nodes have a pointer to the next and to the previous
 
+## Example
+
+![A linked lists containing 1 through 6](../images/linked_list.png)
+
 ## Structure
 
 ```cpp
