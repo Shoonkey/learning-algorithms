@@ -15,3 +15,42 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Binary exponentiation](./algorithms/binary_exponentiation.md)
 - [Hare-Tortoise (Floyd's cycle finding) algorithm](./algorithms/hare_tortoise.md)
 - [Permutations of a set](./algorithms/permutations.md)
+
+### Todo
+
+- [ ] Concept / Sorting
+- [ ] Concept / BigInt
+- [ ] Concept / Memoization
+- [ ] Concept / Dynamic programming
+- [ ] Concept / Greedy algorithms
+- [ ] Concept / Graph
+- [ ] Data structure / Stack
+- [ ] Data structure / Queue
+- [ ] Data structure / Priority queue
+- [ ] Data structure / Segment tree
+- [ ] Data structure / Suffix tree
+- [ ] Data structure / Heap
+- [ ] Data structure / Treap
+- [ ] Data structure / Trie
+- [ ] Data structure / Fenwick tree (BIT, Binary-Indexed Tree)
+- [ ] Data structure / Minimum Spanning Tree (MST)
+- [ ] Algorithm / Binary search
+- [ ] Algorithm / Bubble Sort
+- [ ] Algorithm / Selection Sort
+- [ ] Algorithm / Quick Sort
+- [ ] Algorithm / Insertion Sort
+- [ ] Algorithm / Merge Sort
+- [ ] Algorithm / Heap Sort
+- [ ] Algorithm / Josephus problem algorithm
+- [ ] Algorithm / Longest common substring
+- [ ] Algorithm / Longest repeated substring
+- [ ] Algorithm / Longest increasing subsequence
+- [ ] Algorithm / Dijkstra (shortest path)
+- [ ] Algorithm / Floyd-Warshall (shortest path)
+- [ ] Algorithm / DFS (Depth-First Search)
+- [ ] Algorithm / BFS (Breadth-First Search)
+- [ ] Algorithm / Euler Trail
+- [ ] Algorithm / Flood Fill
+- [ ] Algorithm / Aho-Corasick algorithm
+- [ ] Algorithm / Boyer-Moore's Majority Vote algorithm
+- [ ] Algorithm / Convex Hull algorithm
