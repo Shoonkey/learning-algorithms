@@ -18,6 +18,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Permutations of a set](./algorithms/permutations.md)
 - Sorting / [Selection sort](./algorithms/sorting/selection_sort.md)
 - Sorting / [Insertion sort](./algorithms/sorting/insertion_sort.md)
+- Sorting / [Bubble sort](./algorithms/sorting/bubble_sort.md)
 
 ### Todo
 
@@ -37,7 +38,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [ ] Data structure / Fenwick tree (BIT, Binary-Indexed Tree)
 - [ ] Data structure / Minimum Spanning Tree (MST)
 - [ ] Algorithm / Binary search
-- [ ] Algorithm / Bubble Sort
 - [ ] Algorithm / Quick Sort
 - [ ] Algorithm / Merge Sort
 - [ ] Algorithm / Heap Sort
