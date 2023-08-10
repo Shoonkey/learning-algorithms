@@ -17,6 +17,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Hare-Tortoise (Floyd's cycle finding) algorithm](./algorithms/hare_tortoise.md)
 - [Permutations of a set](./algorithms/permutations.md)
 - Sorting / [Selection sort](./algorithms/sorting/selection_sort.md)
+- Sorting / [Insertion sort](./algorithms/sorting/insertion_sort.md)
 
 ### Todo
 
@@ -38,7 +39,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [ ] Algorithm / Binary search
 - [ ] Algorithm / Bubble Sort
 - [ ] Algorithm / Quick Sort
-- [ ] Algorithm / Insertion Sort
 - [ ] Algorithm / Merge Sort
 - [ ] Algorithm / Heap Sort
 - [ ] Algorithm / Josephus problem algorithm
