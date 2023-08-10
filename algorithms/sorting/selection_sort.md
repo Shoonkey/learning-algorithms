@@ -1,6 +1,6 @@
 # Selection sort
 
-In this sorting algorithm, we repeatedly check for the lowest (or highest) value in the array and place it in the correct place until all elements are sorted. On every iteration the first elements are sorted.
+In this sorting algorithm, we repeatedly check for the lowest (or highest) value in the array and place it in the correct place until all elements are sorted. After the n-th iteration the first n elements are sorted. It is *not stable* by default.
 
 **Time complexity**: $O(n^2)$. An $O(n)$ loop looking for the n-th lowest (or highest) element which takes another $O(n)$ loop.
 
