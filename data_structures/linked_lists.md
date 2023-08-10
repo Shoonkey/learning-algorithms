@@ -12,7 +12,7 @@ There are many types of linked lists. They can be:
 
 ## Example
 
-![A linked lists containing 1 through 6](../images/linked_list.png)
+![A linked list containing 1 through 6](../images/linked_list.png)
 
 ## Structure
 
