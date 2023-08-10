@@ -16,6 +16,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Binary exponentiation](./algorithms/binary_exponentiation.md)
 - [Hare-Tortoise (Floyd's cycle finding) algorithm](./algorithms/hare_tortoise.md)
 - [Permutations of a set](./algorithms/permutations.md)
+- Sorting / [Selection sort](./algorithms/sorting/selection_sort.md)
 
 ### Todo
 
@@ -36,7 +37,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [ ] Data structure / Minimum Spanning Tree (MST)
 - [ ] Algorithm / Binary search
 - [ ] Algorithm / Bubble Sort
-- [ ] Algorithm / Selection Sort
 - [ ] Algorithm / Quick Sort
 - [ ] Algorithm / Insertion Sort
 - [ ] Algorithm / Merge Sort
