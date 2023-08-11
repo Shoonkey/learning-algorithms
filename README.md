@@ -19,6 +19,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - Sorting / [Selection sort](./algorithms/sorting/selection_sort.md)
 - Sorting / [Insertion sort](./algorithms/sorting/insertion_sort.md)
 - Sorting / [Bubble sort](./algorithms/sorting/bubble_sort.md)
+- Sorting / [Merge sort](./algorithms//sorting/merge_sort.md)
 
 ### Todo
 
@@ -39,7 +40,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [ ] Data structure / Minimum Spanning Tree (MST)
 - [ ] Algorithm / Binary search
 - [ ] Algorithm / Quick Sort
-- [ ] Algorithm / Merge Sort
 - [ ] Algorithm / Heap Sort
 - [ ] Algorithm / Josephus problem algorithm
 - [ ] Algorithm / Longest common substring
