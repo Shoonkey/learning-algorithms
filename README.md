@@ -20,6 +20,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - Sorting / [Insertion sort](./algorithms/sorting/insertion_sort.md)
 - Sorting / [Bubble sort](./algorithms/sorting/bubble_sort.md)
 - Sorting / [Merge sort](./algorithms//sorting/merge_sort.md)
+- [Binary search](./algorithms/binary_search.md)
 
 ### Todo
 
@@ -28,6 +29,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [ ] Concept / Dynamic programming
 - [ ] Concept / Greedy algorithms
 - [ ] Concept / Graph
+- [ ] Concept / Divide-and-conquer algorithms
 - [ ] Data structure / Stack
 - [ ] Data structure / Queue
 - [ ] Data structure / Priority queue
@@ -38,7 +40,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [ ] Data structure / Trie
 - [ ] Data structure / Fenwick tree (BIT, Binary-Indexed Tree)
 - [ ] Data structure / Minimum Spanning Tree (MST)
-- [ ] Algorithm / Binary search
 - [ ] Algorithm / Quick Sort
 - [ ] Algorithm / Heap Sort
 - [ ] Algorithm / Josephus problem algorithm
