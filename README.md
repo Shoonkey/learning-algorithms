@@ -9,6 +9,8 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Sorting](./concepts/sorting.md)
 - [BigInt](./concepts/bigint.md)
 - [Memoization](./concepts/memoization.md)
+- [Divide and conquer](./concepts/divide_and_conquer.md)
+- [Decrease and conquer](./concepts/decrease_and_conquer.md)
 
 ## Data structures
 - [Linked lists](./data_structures/linked_lists.md)
@@ -29,7 +31,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [ ] Concept / Dynamic programming
 - [ ] Concept / Greedy algorithms
 - [ ] Concept / Graph
-- [ ] Concept / Divide-and-conquer algorithms
 - [ ] Data structure / Stack
 - [ ] Data structure / Queue
 - [ ] Data structure / Priority queue
