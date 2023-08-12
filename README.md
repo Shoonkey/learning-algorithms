@@ -8,6 +8,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Recursion](./concepts/recursion.md)
 - [Sorting](./concepts/sorting.md)
 - [BigInt](./concepts/bigint.md)
+- [Memoization](./concepts/memoization.md)
 
 ## Data structures
 - [Linked lists](./data_structures/linked_lists.md)
@@ -25,7 +26,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 
 ### Todo
 
-- [ ] Concept / Memoization
 - [ ] Concept / Dynamic programming
 - [ ] Concept / Greedy algorithms
 - [ ] Concept / Graph
