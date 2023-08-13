@@ -17,6 +17,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 ## Data structures
 - [Linked lists](./data_structures/linked_lists.md)
 - [Binary trees](./data_structures/binary_trees.md)
+- [Graphs](./data_structures/graph.md)
 
 ## Algorithms
 - [Binary exponentiation](./algorithms/binary_exponentiation.md)
@@ -31,7 +32,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 ### Todo
 
 - [ ] Improvement / Revisit concept of greedy algorithms when it's clearer and I can give examples
-- [ ] Concept / Graph
 - [ ] Data structure / Stack
 - [ ] Data structure / Queue
 - [ ] Data structure / Priority queue
