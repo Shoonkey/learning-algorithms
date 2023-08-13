@@ -12,6 +12,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Divide and conquer](./concepts/divide_and_conquer.md)
 - [Decrease and conquer](./concepts/decrease_and_conquer.md)
 - [Greedy algorithms](./concepts/greedy.md)
+- [Dynamic programming](./concepts/dynamic_programming.md)
 
 ## Data structures
 - [Linked lists](./data_structures/linked_lists.md)
@@ -29,7 +30,6 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 
 ### Todo
 
-- [ ] Concept / Dynamic programming
 - [ ] Improvement / Revisit concept of greedy algorithms when it's clearer and I can give examples
 - [ ] Concept / Graph
 - [ ] Data structure / Stack
