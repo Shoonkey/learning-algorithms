@@ -13,6 +13,7 @@ A bunch of notes on algorithms and data structures I'm taking as I'm learning th
 - [Decrease and conquer](./concepts/decrease_and_conquer.md)
 - [Greedy algorithms](./concepts/greedy.md)
 - [Dynamic programming](./concepts/dynamic_programming.md)
+- [Data structure](./concepts/data_structure.md)
 
 ## Data structures
 - [Linked lists](./data_structures/linked_lists.md)
